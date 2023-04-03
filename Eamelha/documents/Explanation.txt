@@ -1,0 +1,30 @@
+**** Video 79 - Bottom Navigation Bar
+* If you use Scaffold in layout screen, you do not need Scaffold in other screens that you can go to them from layout screen
+__________________________________________________________________________________________________________
+**** Video 80 - Future & async & await
+* Future:
+    // We do not know when the function will return its value (we do not have specific time)
+    // function runs in background thread
+    // to open a thread for the function use 'async' word
+    // 'await' means that wait the future function to go and come back with data
+* By default any function runs in Main thread
+__________________________________________________________________________________________________________
+**** Video 82 - Create database
+* ^1.2.2
+    this sign '^' means when the new version of the dependency is available then it will updated automatically
+* Any dependency when we add it to pubspec.yaml, it auto generated in pubspec.lock
+* Name of the db should be with extension as it creates a real file
+* Change the version of the database when you change its structure(tables) and start with version 1
+* onCreate function called only once
+__________________________________________________________________________________________________________
+**** Video 85 - BLoC Fundamentals
+* When you change from state to a different state the values updated so, cubit or bloc do the same thing it moves from state to another to update values
+* BLoc stands for Business Logic Component and it is a design pattern
+* All app's logic is in bloc
+* Values listen to cubit to get the newest values when changing states from one to another
+__________________________________________________________________________________________________________
+**** Video 86 - BLoC Observer
+* We can consume on the same bloc in many places
+__________________________________________________________________________________________________________
+**** Any additional explanation needed look at source code you'll find desirable comments
+__________________________________________________________________________________________________________
